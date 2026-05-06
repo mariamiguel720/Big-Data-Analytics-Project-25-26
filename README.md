@@ -37,3 +37,6 @@ git checkout nome-branch-comum
 git pull origin nome-branch-comum  
 git merge nome-do-teu-branch
 git push nome-branch-comum
+
+Voltar ao branch pessoal: 
+git checkout nome-do-teu-branch
