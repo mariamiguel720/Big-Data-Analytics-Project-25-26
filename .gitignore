@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.*
+
+# Hugging Face cache
+.cache/
+
+# Dataset (demasiado grande para git)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Lightning Studio
+*.log
