@@ -1,6 +1,7 @@
 # Environment variables
 .env
 .env.*
+!.env.example
 
 # Hugging Face cache
 .cache/
@@ -21,3 +22,6 @@ __pycache__/
 
 # Lightning Studio
 *.log
+
+# Raw Bald People Dataset
+data/Data_Bald_People/Raw/
