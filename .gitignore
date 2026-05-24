@@ -7,7 +7,9 @@
 .cache/
 
 # Dataset (demasiado grande para git)
-data/
+data/Data_Bald_People_Raw
+data/FIFA
+data/IBM_Transactions
 
 # Python
 __pycache__/
