@@ -22,6 +22,3 @@ __pycache__/
 
 # Lightning Studio
 *.log
-
-# Raw Bald People Dataset
-data/Data_Bald_People/Raw/
