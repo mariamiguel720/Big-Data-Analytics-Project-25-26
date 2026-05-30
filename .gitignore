@@ -24,3 +24,6 @@ __pycache__/
 
 # Lightning Studio
 *.log
+dataset_processado/
+*.parquet
+*.pt
