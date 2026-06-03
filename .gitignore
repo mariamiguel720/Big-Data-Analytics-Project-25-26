@@ -28,7 +28,7 @@ __pycache__/
 *.log
 
 # Ignoring processed dataset
-notebooks/Baldness/dataset_processado/
+notebooks/Baldness/dataset_processed/
 
 # Ignoring trained model weights (too large para git)
 notebooks/Baldness/efficientnet_b0_finetuned.pt
