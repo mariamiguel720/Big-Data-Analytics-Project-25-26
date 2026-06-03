@@ -10,6 +10,8 @@
 data/Data_Bald_People_Raw
 data/FIFA
 data/IBM_Transactions
+data/Data_Bald_People/Split/
+
 
 # Python
 __pycache__/
@@ -24,3 +26,9 @@ __pycache__/
 
 # Lightning Studio
 *.log
+
+# Ignoring processed dataset
+notebooks/Baldness/dataset_processado/
+
+# Ignoring trained model weights (too large para git)
+notebooks/Baldness/efficientnet_b0_finetuned.pt
