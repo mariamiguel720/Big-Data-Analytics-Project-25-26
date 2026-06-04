@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Hugging Face cache
+.cache/
+
+# Dataset (demasiado grande para git)
+data/Data_Bald_People_Raw
+data/FIFA
+data/IBM_Transactions
+data/Data_Bald_People/Split/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Lightning Studio
+*.log
+
+# Ignoring processed dataset
+notebooks/Baldness/dataset_processed/
+
+# Ignoring trained model weights (too large para git)
+notebooks/Baldness/efficientnet_b0_finetuned.pt
