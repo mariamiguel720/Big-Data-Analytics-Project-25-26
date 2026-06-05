@@ -270,7 +270,7 @@ def resize_and_normalise(rows, IMAGENET_MEAN, IMAGENET_STD):
         except Exception:
             continue
 
-def augment_partition(rows, IMAGENET_MEAN, IMAGENET_STD, N_AUGMENTS):
+def augment_partition(rows, _IMAGENET_MEAN, _IMAGENET_STD, N_AUGMENTS):
     """
     Runs on WORKERS (never on the driver).
     Imports done ONCE per partition -- efficient at Big Data scale.
