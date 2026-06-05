@@ -8,7 +8,7 @@
 
 # Dataset (demasiado grande para git)
 data/Data_Bald_People_Raw
-data/FIFA
+#data/FIFA
 data/IBM_Transactions
 data/Data_Bald_People/Split/
 
